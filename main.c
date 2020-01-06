@@ -3,16 +3,34 @@
 
 int main()
 {
-    char letra = 'a';
-    int nro = 10;
-    float n = 5.25;
-    printf("%c \n", letra);
-    printf("%d \n", letra);
-    printf("%d \n", nro);
-    printf("%f \n", n);
-    printf("Meu programa C\n");
-    printf("Letra %c, inteiro %d \n", letra, nro);
-    printf("Nro: %d; Nro + 1: %d\n", nro, nro+1);
+    /**
+    A função scanf e uma função de leitura de teclado
+    scanf("tipos de entrada", variaveis);
+    */
+    int nro;
+    float f;
+
+    /**
+    printf("Digite um numero: ");
+    scanf("%d", &nro);
+    printf("Numero digitado: %d \n", nro);
+    */
+
+    printf("Digite um numero: ");
+    scanf("%d", &nro);
+    printf("Digite outro numero: ");
+    scanf("%f", &f);
+    printf("Numeros: %d e %f\n", nro, f);
+
+    /**
+    char letra;
+    int nro;
+    float n;
+    double d;
+    scanf("%c", &letra);
+    scanf("%d", &nro);
+    scanf("%f", &n);
+    */
 
     system("pause");
     return 0;
