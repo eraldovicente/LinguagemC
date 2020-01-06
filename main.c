@@ -1,30 +1,21 @@
 #include <stdio.h> /**biblioteca de escrita e leitura*/
 #include <stdlib.h> /**biblioteca auxiliar*/
+#define PI 3.1415 /**constante de pré processador*/
 
 int main()
 {
     /**
-    Comando de atribução
+    Constante
 
-    variável = expressão;
-    int x, y, z;
-    x = y = z = 10;
+    A palavra reservada "const" cria posição de memória
+    já a o "define" substitui em tempo de compilação.
+
     */
+    const int nro = 10;
+    int soma = nro + 1;
+    printf("Constante %d \n", soma);
 
-    /**
-    int x = 5, y;
-    y = x;
-    y = x + 10;
 
-    printf("x = %d e y = %d\n", x , y);
-    */
-
-    int x = 97;
-    char ch1, ch2 = 'A';
-    ch1 = x;
-    printf("ch1 = %c \n", ch1);
-    x = ch2;
-    printf("x = %d \n", x);
 
     system("pause");
     return 0;
