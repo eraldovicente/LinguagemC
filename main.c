@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> /*biblioteca de escrita e leitura*/
+#include <stdlib.h> /*biblioteca auxiliar*/
 
 int main()
 {
