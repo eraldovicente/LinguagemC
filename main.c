@@ -4,33 +4,27 @@
 int main()
 {
     /**
-    A função scanf e uma função de leitura de teclado
-    scanf("tipos de entrada", variaveis);
+    Comando de atribução
+
+    variável = expressão;
+    int x, y, z;
+    x = y = z = 10;
     */
-    int nro;
-    float f;
 
     /**
-    printf("Digite um numero: ");
-    scanf("%d", &nro);
-    printf("Numero digitado: %d \n", nro);
+    int x = 5, y;
+    y = x;
+    y = x + 10;
+
+    printf("x = %d e y = %d\n", x , y);
     */
 
-    printf("Digite um numero: ");
-    scanf("%d", &nro);
-    printf("Digite outro numero: ");
-    scanf("%f", &f);
-    printf("Numeros: %d e %f\n", nro, f);
-
-    /**
-    char letra;
-    int nro;
-    float n;
-    double d;
-    scanf("%c", &letra);
-    scanf("%d", &nro);
-    scanf("%f", &n);
-    */
+    int x = 97;
+    char ch1, ch2 = 'A';
+    ch1 = x;
+    printf("ch1 = %c \n", ch1);
+    x = ch2;
+    printf("x = %d \n", x);
 
     system("pause");
     return 0;
